@@ -27,23 +27,11 @@ public:
     void drawScene();
     void drawSubElement(int gridSize);
     
-    ofVec3f position;
-    ofVec3f velocity;
-    ofVec3f acceleration;
-    
-    float radius;
-    float friction;
-    float mass;
-    float maxx, maxy, maxz, minx, miny, minz;
-    
     vector<ParticleVec3> particles;
     ofVboMesh vboMesh;
     
-    static const int particleNum = 5000;
-    
+    static const int particleNum = 500;
     bool move;
-    
-    
     
     float width = 100.0;
     float height = 100.0;
