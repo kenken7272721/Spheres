@@ -1,0 +1,15 @@
+<group>
+	<light_specular>0.5, 0.5, 1, 1</light_specular>
+	<light_diffuse>1, 1, 1, 1</light_diffuse>
+	<light_ambient>1, 1, 1, 1</light_ambient>
+	<material_diffuse>0.632653, 0.576531, 0.617347, 1</material_diffuse>
+	<material_ambient>0.489796, 0.131122, 0.2, 1</material_ambient>
+	<material_specular>0.2, 0, 0, 1</material_specular>
+	<material_emissive>0, 0, 0, 1</material_emissive>
+	<shininess>0</shininess>
+	<center_color>15, 13, 33, 255</center_color>
+	<edge_color>93, 193, 251, 255</edge_color>
+	<testAmount1>0.1</testAmount1>
+	<testAmount2>0.01</testAmount2>
+<group/>
+</group>
