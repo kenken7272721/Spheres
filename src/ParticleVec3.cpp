@@ -10,9 +10,9 @@
 #include "ParticleVec3.h"
 
 ParticleVec3::ParticleVec3() {
-    radius = 5.0;
+    radius = 500.0;
     friction = 0.01;
-    mass = 1.0;
+    mass = 100.0;
     position = ofVec3f(0.0, 0.0, 0.0);
     velocity = ofVec3f(0.0, 0.0, 0.0);
     minx = -1000;
